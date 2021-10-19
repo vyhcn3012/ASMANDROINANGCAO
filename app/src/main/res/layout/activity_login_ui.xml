@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".Activity.Login_UI">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="48sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextLGUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        android:hint="Tài khoản" />
+
+    <EditText
+        android:id="@+id/editTextLGPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Mật khẩu"/>
+
+    <CheckBox
+        android:id="@+id/checkboxSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu tài khoản"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#F89400"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:textColor="#03A9F4"
+        android:text="Bạn đã quên tài khoản?" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:textSize="24dp"
+        android:text="Đăng nhập" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:textColor="#03A9F4"
+        android:text="--Hoặc--" />
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:textSize="24sp"
+        android:text="Đăng kí" />
+
+</LinearLayout>

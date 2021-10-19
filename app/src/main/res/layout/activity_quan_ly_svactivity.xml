@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffeaa4"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageSinhVien"
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp" />
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chosse"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_marginLeft="-350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#df03082b"
+        android:id="@+id/imageQuanLySinhVien"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="220dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerLop"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên sinh viên"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/editTextTenSinhVien"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="160dp"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="280dp"/>
+
+    <EditText
+        android:id="@+id/editTextNgaySinh"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="160dp"
+        android:inputType="textPersonName"
+        android:text="" />
+    <Button
+        android:id="@+id/buttonThemSV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="330dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:textSize="24sp"
+        android:text="Thêm sinh viên" />
+
+
+    <ListView
+        android:id="@+id/list_itemQLSV"
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:layout_marginTop="400dp"/>
+
+</RelativeLayout>

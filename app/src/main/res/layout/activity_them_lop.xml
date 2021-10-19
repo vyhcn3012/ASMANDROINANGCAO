@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".Activity.ThemLopActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:text="Thêm lớp"/>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:background="@drawable/backend"
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="250dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Mã lớp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:id="@+id/editTextMaLop"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Tên lớp"
+        android:layout_marginTop="360dp"
+        android:id="@+id/editTextTenLop"/>
+
+    <Button
+        android:id="@+id/buttonLuuLop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="450dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:textSize="24sp"
+        android:text="Lưu lớp" />
+
+    <Button
+        android:id="@+id/buttonXoaTrang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="550dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:textSize="24sp"
+        android:text="Xóa trắng" />
+
+</RelativeLayout>

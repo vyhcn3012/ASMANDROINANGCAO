@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffeaa4"
+    tools:context=".Activity.ProdustList">
+    <TextView
+        android:layout_marginLeft="-350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#df03082b"
+        android:id="@+id/imageQuanLySinhVien"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageSinhVien"
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/hbg"/>
+    <ListView
+        android:id="@+id/list_itemProduts"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="230dp" />
+</RelativeLayout>
